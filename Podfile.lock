@@ -1,0 +1,81 @@
+PODS:
+  - Appsee (2.3.6)
+  - AudioBot (1.1.1)
+  - AutoReview (1.2.0)
+  - Base64 (1.1.2)
+  - DeviceGuru (3.0.1)
+  - Fabric (1.7.2)
+  - FayeSwift (0.3.0):
+    - Starscream (~> 2.0)
+    - SwiftyJSON (~> 3.1)
+  - FXBlurView (1.6.4)
+  - JCore (1.1.6)
+  - JPush (3.0.7):
+    - JCore (~> 1.1.6)
+  - PINCache (3.0.1-beta.5):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.5)
+    - PINCache/Core (= 3.0.1-beta.5)
+  - PINCache/Arc-exception-safe (3.0.1-beta.5):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.5):
+    - PINOperation (= 1.0.3)
+  - PINOperation (1.0.3)
+  - PINRemoteImage/Core (3.0.0-beta.12):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.12):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.12):
+    - PINCache (= 3.0.1-beta.5)
+    - PINRemoteImage/Core
+  - pop (1.0.10)
+  - SocketRocket (0.5.1)
+  - Starscream (2.1.1)
+  - SwiftyJSON (3.1.4)
+  - Texture (2.5.1):
+    - Texture/PINRemoteImage (= 2.5.1)
+  - Texture/Core (2.5.1)
+  - Texture/PINRemoteImage (2.5.1):
+    - PINRemoteImage/iOS (= 3.0.0-beta.12)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+  - TPKeyboardAvoiding (1.3.1)
+
+DEPENDENCIES:
+  - Appsee
+  - AudioBot
+  - AutoReview
+  - Base64
+  - DeviceGuru
+  - Fabric
+  - FayeSwift
+  - FXBlurView
+  - JPush
+  - pop
+  - SocketRocket
+  - Texture
+  - TPKeyboardAvoiding
+
+SPEC CHECKSUMS:
+  Appsee: 8b3eab549f4701befe537cab4aefd175421f6328
+  AudioBot: b7bcf3b18dc2cdccba14d798400c708908ad203d
+  AutoReview: 55e0ad72aab9679dbc53fc604a24964960878e6d
+  Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
+  DeviceGuru: 648c34deb10c6ef59b013ea2922c04c18d8973f0
+  Fabric: 9cd6a848efcf1b8b07497e0b6a2e7d336353ba15
+  FayeSwift: caedafbeda17a91107f85edc7ad031ce71917412
+  FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
+  JCore: 18fc8725124f26e55625eaf224659b3a999dcf63
+  JPush: 111b79b8a0169ab8fd4c486dac3ed166ed69293e
+  PINCache: 98e7b1ef782824ad231ade51987c218b758c30d8
+  PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
+  PINRemoteImage: 0cefe720c2612960bd360710efbd6c73a1991d5f
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  Starscream: 142bd8ef24592d985daee9fa48c936070b85b15f
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  Texture: c3f06e344aa091667b7a56002e525cde674d021a
+  TPKeyboardAvoiding: 0d6af20e95e2850f4c621841225b59ec7d8dd852
+
+PODFILE CHECKSUM: 5015a0f9d4fb5835e6d0f148130e7add7782096a
+
+COCOAPODS: 1.3.1

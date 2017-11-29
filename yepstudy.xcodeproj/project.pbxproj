@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		080A33712134FBFB207EB94B /* Pods_yepstudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3336B486231A2416FA0BF25C /* Pods_yepstudy.framework */; };
 		18203C7C1FC1BCC3007D394A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18203C7B1FC1BCC3007D394A /* AppDelegate.swift */; };
 		18203C7E1FC1BCC3007D394A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18203C7D1FC1BCC3007D394A /* ViewController.swift */; };
 		18203C811FC1BCC3007D394A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18203C7F1FC1BCC3007D394A /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		18203C911FC1BCC3007D394A /* yepstudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18203C901FC1BCC3007D394A /* yepstudyTests.swift */; };
 		18203C9C1FC1BCC3007D394A /* yepstudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18203C9B1FC1BCC3007D394A /* yepstudyUITests.swift */; };
 		18203CB91FC1BE8A007D394A /* intro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18203CB71FC1BE8A007D394A /* intro.storyboard */; };
+		1864D2601FCE579C00666244 /* FayeClient in Frameworks */ = {isa = PBXBuildFile; fileRef = 1864D25F1FCE579C00666244 /* FayeClient */; };
+		DA5B55432BC1314B0288F046 /* Pods_yepstudyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7613642F4244CE1FFB142ECD /* Pods_yepstudyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,14 @@
 		18203C9B1FC1BCC3007D394A /* yepstudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yepstudyUITests.swift; sourceTree = "<group>"; };
 		18203C9D1FC1BCC3007D394A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18203CB81FC1BE8A007D394A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/intro.storyboard; sourceTree = "<group>"; };
+		1864D25D1FCE526200666244 /* yepstudy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "yepstudy copy-Info.plist"; path = "/Users/ric/Documents/Developer/Swift/yepstudy/yepstudy copy-Info.plist"; sourceTree = "<absolute>"; };
+		1864D25F1FCE579C00666244 /* FayeClient */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FayeClient; sourceTree = "<group>"; };
+		3336B486231A2416FA0BF25C /* Pods_yepstudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yepstudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F085A2DDCFB9A03F8EF5B2E /* Pods-yepstudyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yepstudyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yepstudyTests/Pods-yepstudyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7613642F4244CE1FFB142ECD /* Pods_yepstudyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yepstudyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C0D85D9A543F15399B9BD8F /* Pods-yepstudyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yepstudyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yepstudyTests/Pods-yepstudyTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C04379B5C44E1D6723FA249 /* Pods-yepstudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yepstudy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yepstudy/Pods-yepstudy.debug.xcconfig"; sourceTree = "<group>"; };
+		9DFA08583B456E6D64986A3F /* Pods-yepstudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yepstudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-yepstudy/Pods-yepstudy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1864D2601FCE579C00666244 /* FayeClient in Frameworks */,
+				080A33712134FBFB207EB94B /* Pods_yepstudy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA5B55432BC1314B0288F046 /* Pods_yepstudyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +97,9 @@
 				18203C8F1FC1BCC3007D394A /* yepstudyTests */,
 				18203C9A1FC1BCC3007D394A /* yepstudyUITests */,
 				18203C791FC1BCC3007D394A /* Products */,
+				1864D25D1FCE526200666244 /* yepstudy copy-Info.plist */,
+				1864D25E1FCE579C00666244 /* Frameworks */,
+				67AEF94DEE2BCC2B92C3AAFB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -242,6 +259,27 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		1864D25E1FCE579C00666244 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1864D25F1FCE579C00666244 /* FayeClient */,
+				3336B486231A2416FA0BF25C /* Pods_yepstudy.framework */,
+				7613642F4244CE1FFB142ECD /* Pods_yepstudyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67AEF94DEE2BCC2B92C3AAFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C04379B5C44E1D6723FA249 /* Pods-yepstudy.debug.xcconfig */,
+				9DFA08583B456E6D64986A3F /* Pods-yepstudy.release.xcconfig */,
+				6F085A2DDCFB9A03F8EF5B2E /* Pods-yepstudyTests.debug.xcconfig */,
+				7C0D85D9A543F15399B9BD8F /* Pods-yepstudyTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -249,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18203CA01FC1BCC3007D394A /* Build configuration list for PBXNativeTarget "yepstudy" */;
 			buildPhases = (
+				1702DC6A9B554FA59BE2893E /* [CP] Check Pods Manifest.lock */,
 				18203C741FC1BCC3007D394A /* Sources */,
 				18203C751FC1BCC3007D394A /* Frameworks */,
 				18203C761FC1BCC3007D394A /* Resources */,
+				99BF2D91197A6577218D2793 /* [CP] Embed Pods Frameworks */,
+				5B6276E4E223B2A055EAAD34 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,9 +307,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18203CA31FC1BCC3007D394A /* Build configuration list for PBXNativeTarget "yepstudyTests" */;
 			buildPhases = (
+				CBD4C70EA2D1295CC05E7453 /* [CP] Check Pods Manifest.lock */,
 				18203C881FC1BCC3007D394A /* Sources */,
 				18203C891FC1BCC3007D394A /* Frameworks */,
 				18203C8A1FC1BCC3007D394A /* Resources */,
+				4FAB66A6A07F987254C55CFC /* [CP] Embed Pods Frameworks */,
+				8F85C7778049EF364B11482E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -371,6 +415,136 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1702DC6A9B554FA59BE2893E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yepstudy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FAB66A6A07F987254C55CFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yepstudyTests/Pods-yepstudyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B6276E4E223B2A055EAAD34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yepstudy/Pods-yepstudy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F85C7778049EF364B11482E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yepstudyTests/Pods-yepstudyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99BF2D91197A6577218D2793 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-yepstudy/Pods-yepstudy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AudioBot/AudioBot.framework",
+				"${BUILT_PRODUCTS_DIR}/AutoReview/AutoReview.framework",
+				"${BUILT_PRODUCTS_DIR}/Base64/Base64.framework",
+				"${BUILT_PRODUCTS_DIR}/DeviceGuru/DeviceGuru.framework",
+				"${BUILT_PRODUCTS_DIR}/FXBlurView/FXBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/FayeSwift/FayeSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TPKeyboardAvoiding/TPKeyboardAvoiding.framework",
+				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioBot.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AutoReview.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Base64.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceGuru.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FXBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FayeSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPKeyboardAvoiding.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yepstudy/Pods-yepstudy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBD4C70EA2D1295CC05E7453 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yepstudyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18203C741FC1BCC3007D394A /* Sources */ = {
@@ -550,11 +724,13 @@
 		};
 		18203CA11FC1BCC3007D394A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C04379B5C44E1D6723FA249 /* Pods-yepstudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9X765PPYUF;
 				INFOPLIST_FILE = yepstudy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ddd.yepstudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -565,11 +741,13 @@
 		};
 		18203CA21FC1BCC3007D394A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFA08583B456E6D64986A3F /* Pods-yepstudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9X765PPYUF;
 				INFOPLIST_FILE = yepstudy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ddd.yepstudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -580,6 +758,7 @@
 		};
 		18203CA41FC1BCC3007D394A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F085A2DDCFB9A03F8EF5B2E /* Pods-yepstudyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -597,6 +776,7 @@
 		};
 		18203CA51FC1BCC3007D394A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C0D85D9A543F15399B9BD8F /* Pods-yepstudyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
