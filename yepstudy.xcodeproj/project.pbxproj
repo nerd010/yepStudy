@@ -116,6 +116,7 @@
 		18203C7A1FC1BCC3007D394A /* yepstudy */ = {
 			isa = PBXGroup;
 			children = (
+				18203C7B1FC1BCC3007D394A /* AppDelegate.swift */,
 				18203CA91FC1BCF4007D394A /* Shortcuts */,
 				18203CAA1FC1BD29007D394A /* Sounds */,
 				18203CAB1FC1BD48007D394A /* Helpers */,
@@ -130,7 +131,6 @@
 				18203CB41FC1BDB6007D394A /* Views */,
 				18203CB51FC1BDBE007D394A /* Transactions */,
 				18203CB61FC1BDCB007D394A /* ViewControllers */,
-				18203C7B1FC1BCC3007D394A /* AppDelegate.swift */,
 				18203C7D1FC1BCC3007D394A /* ViewController.swift */,
 				18203CB71FC1BE8A007D394A /* intro.storyboard */,
 				18203C7F1FC1BCC3007D394A /* Main.storyboard */,
