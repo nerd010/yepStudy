@@ -16,6 +16,7 @@ def pods
     pod 'Fabric'
 	pod 'Texture'
 	pod 'FayeSwift'
+	pod 'Alamofire', '~> 4.5'
 end
 
 target 'yepstudy' do

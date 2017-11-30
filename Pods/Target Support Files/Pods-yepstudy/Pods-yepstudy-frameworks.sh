@@ -102,6 +102,7 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AudioBot/AudioBot.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AutoReview/AutoReview.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Base64/Base64.framework"
@@ -119,6 +120,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/pop/pop.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AudioBot/AudioBot.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AutoReview/AutoReview.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Base64/Base64.framework"
